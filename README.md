@@ -1,6 +1,7 @@
 # Karotz Integration for Home Assistant
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/hacs/integration)
+[![Tipeee](https://img.shields.io/badge/Support-Tipeee-yellow)](https://fr.tipeee.com/miniil)
 
 Custom integration to control your Karotz rabbit from Home Assistant.
 
@@ -63,12 +64,23 @@ automation:
 
 ## Requirements
 
-- Karotz with OpenKarotz firmware
-- Network connectivity between Home Assistant and Karotz
+- Karotz with OpenKarotz firmware installed
+- Karotz connected to your local network (WiFi)
+- Local IP address of your Karotz (check your router or use a network scanner)
+- Network connectivity between Home Assistant and Karotz (same network/VLAN)
+
+**Note**: This integration uses the OpenKarotz CGI API. Make sure your Karotz responds to `http://KAROTZ_IP/cgi-bin/status` before adding it to Home Assistant.
 
 ## Support
 
 If you encounter issues, please [open an issue](https://github.com/miniil/ha-karotz/issues) on GitHub.
+
+## Author
+
+**miniil**
+
+- 🌐 Website: [miniil.be](https://miniil.be)
+- ☕ Support my work: [Tipeee](https://fr.tipeee.com/miniil)
 
 ## License
 
