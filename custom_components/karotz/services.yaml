@@ -1,0 +1,21 @@
+say:
+  name: Say
+  description: Make Karotz speak text
+  fields:
+    text:
+      name: Text
+      description: Text to speak
+      required: true
+      example: "Hello I'm a rabbit"
+      selector:
+        text:
+    voice:
+      name: Voice
+      description: Voice ID (1=fr male, 2=fr female, 5=en-US male, 6=en-US female...)
+      required: false
+      default: 2
+      selector:
+        number:
+          min: 1
+          max: 86
+          mode: box

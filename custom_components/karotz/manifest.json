@@ -1,0 +1,13 @@
+{
+  "domain": "karotz",
+  "name": "Karotz",
+  "codeowners": [
+    "@miniil"
+  ],
+  "config_flow": true,
+  "documentation": "https://www.home-assistant.io/integrations/karotz",
+  "iot_class": "local_polling",
+  "quality_scale": "bronze",
+  "requirements": [],
+  "version": "0.1.0"
+}

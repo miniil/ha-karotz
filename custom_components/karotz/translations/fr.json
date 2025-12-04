@@ -1,0 +1,16 @@
+{
+    "config": {
+        "error": {
+            "cannot_connect": "Impossible de se connecter au Karotz."
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "host": "Adresse IP",
+                    "name": "Nom"
+                },
+                "title": "Configurer Karotz"
+            }
+        }
+    }
+}
